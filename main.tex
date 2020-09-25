@@ -1,0 +1,33 @@
+%http://www.cpt.univ-mrs.fr/~masson/latex/Beamer-appearance-cheat-sheet.pdf
+
+\documentclass[usenames,dvipsnames]{beamer}
+\input{include.tex}
+
+\title{Title: Coolest Presentation}
+\author{Author: Super Cool}
+\date{Date: Month Year}
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Roadmap}
+
+\begin{itemize}
+    \item This first
+    \item Then this
+    \item Finally its about to end
+\end{itemize}
+    
+\end{frame}
+
+\end{document}
